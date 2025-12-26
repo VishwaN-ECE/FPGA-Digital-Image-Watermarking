@@ -1,3 +1,9 @@
+% Author: Vishwa Narayanan
+% Project: FPGA-Based Digital Image Watermarking
+% Year: 2025
+% License: MIT
+
+
 %% PSNR Calculation for Watermarked Image (Fixed Version)
 clc; clear; close all;
 
@@ -37,3 +43,4 @@ figure;
 subplot(1,2,1); imshow(uint8(orig_img)); title('Original Image');
 subplot(1,2,2); imshow(uint8(watermarked_img)); title('Watermarked Image');
 sgtitle(sprintf('PSNR = %.2f dB', psnr_val));
+
