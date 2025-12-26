@@ -1,3 +1,9 @@
+% Author: Vishwa Narayanan
+% Project: FPGA-Based Digital Image Watermarking
+% Year: 2025
+% License: MIT
+
+
 
 %% 🔧 Tamper Authentication for Watermarked Image (Fixed Version)
 clc; clear; close all;
@@ -55,4 +61,5 @@ subplot(1,3,1), imshow(original_watermark), title('Original Watermark');
 subplot(1,3,2), imshow(extracted_from_watermarked), title('Extracted from Watermarked');
 subplot(1,3,3), imshow(extracted_from_host), title('Extracted from Host');
 text(0.5, -0.1, sprintf('NCC(WM)=%.4f | NCC(Host)=%.4f', ncc_watermarked, ncc_host), ...
+
      'Units','normalized','HorizontalAlignment','center');
