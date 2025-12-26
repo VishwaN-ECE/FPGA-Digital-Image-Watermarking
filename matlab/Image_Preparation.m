@@ -1,3 +1,9 @@
+% Author: Vishwa Narayanan
+% Project: FPGA-Based Digital Image Watermarking
+% Year: 2025
+% License: MIT
+
+
 %% ============================================================
 %  Image Preparation Script (Host + Watermark)
 %  Fixed orientation for Verilog compatibility
@@ -44,3 +50,4 @@ fprintf('✅ Watermark image → watermark_image.mem (rotation corrected)\n\n');
 figure('Name','Prepared Images','NumberTitle','off');
 subplot(1,2,1); imshow(host); title('Host Image');
 subplot(1,2,2); imshow(watermark); title('Watermark Image');
+
