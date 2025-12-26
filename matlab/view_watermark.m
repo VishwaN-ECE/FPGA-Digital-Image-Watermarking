@@ -1,3 +1,10 @@
+% Author: Vishwa Narayanan
+% Project: FPGA-Based Digital Image Watermarking
+% Year: 2025
+% License: MIT
+
+
+
 %% ============================================================
 %  Watermark Extraction and Visualization (Final — Upright & Not Mirrored)
 % ============================================================
@@ -94,3 +101,4 @@ annotation('textbox', [0.35, 0.01, 0.3, 0.1], 'String', ...
     'FitBoxToText', 'on', 'EdgeColor', 'none', 'HorizontalAlignment','center');
 
 fprintf('\n✅ Orientation and mirroring fixed — images now upright and aligned.\n');
+
