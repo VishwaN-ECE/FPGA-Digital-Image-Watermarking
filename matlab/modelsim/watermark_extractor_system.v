@@ -1,3 +1,8 @@
+// Author: Vishwa Narayanan
+// Project: FPGA Digital Image Watermarking
+// License: MIT
+
+
 //////////////////////////////////////////////////////////////////////////////////
 // Module: watermark_extractor_system
 // Description:
