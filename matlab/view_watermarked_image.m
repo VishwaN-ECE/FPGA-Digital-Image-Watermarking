@@ -1,3 +1,9 @@
+% Author: Vishwa Narayanan
+% Project: FPGA-Based Digital Image Watermarking
+% Year: 2025
+% License: MIT
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 % MATLAB Script: view_watermarked_image (Adaptive Orientation Fix)
@@ -64,3 +70,4 @@ catch ME
     fprintf('❌ Error: %s\n', ME.message);
     fprintf('Ensure "%s" exists and contains valid hexadecimal pixel data.\n', output_filename);
 end
+
